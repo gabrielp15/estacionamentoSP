@@ -1,7 +1,7 @@
 # Estacionamento SP
-Sistema gerenciador de estacionamento, escrito em Java, com uso do Spring, e aplicação de conceitos de construção de API RESTFull.
+Sistema gerenciador de estacionamentos, escrito em Java, com uso do Spring, e aplicação de conceitos de construção de API RESTFull.
 
-Sistema se sustenta com base em uma API RESTFull construida com o Spring, com base de dados PostGreSQL, e Front-end construido no Vaadin.
+Sistema sustenta-se com base em API RESTFull construida com o Spring, com base de dados PostgreSQL, e Front-end construido no Vaadin.
 
 Ainda estou fazendo ligações entre o Back e o Front end, e irei documentar tudo por meio deste README.
 
@@ -27,7 +27,7 @@ Roadmap do sistema:
 `/cliente/(ID)` - Método GET, utilizada para buscar os dados de um cliente específico, informando sua PK na BD \
 `/cliente/all` - Método GET, utilizada para exibir a lista de todos os clientes registrados na BD \
 `/cliente/update/(ID)` - Método PUT, utilizado para atualizar dados de determinado cliente, identificado por sua PK. \
-`/cliente/delete/(ID)` - Método DELETE, utilizado para excluir o registro de um cliente determinado por sua PK do BD. \
+`/cliente/delete/(ID)` - Método DELETE, utilizado para excluir o registro de um cliente determinado por sua PK do BD.
 
 
 
