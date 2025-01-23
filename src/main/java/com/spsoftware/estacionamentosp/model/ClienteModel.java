@@ -27,8 +27,8 @@ public class ClienteModel extends RepresentationModel<ClienteModel> implements S
     private String tipoUso;
     private BigDecimal valorUso;
     private String tipoPagamento;
-    private BigDecimal horaEntrada;
-    private BigDecimal horaSaida;
+    private Long horaEntrada;
+    private Long horaSaida;
     private Date dataEntrada;
     private Date dataSaida;
 
@@ -112,19 +112,19 @@ public class ClienteModel extends RepresentationModel<ClienteModel> implements S
         this.tipoPagamento = tipoPagamento;
     }
 
-    public BigDecimal getHoraEntrada() {
+    public Long getHoraEntrada() {
         return horaEntrada;
     }
 
-    public void setHoraEntrada(BigDecimal horaEntrada) {
+    public void setHoraEntrada(Long horaEntrada) {
         this.horaEntrada = horaEntrada;
     }
 
-    public BigDecimal getHoraSaida() {
+    public Long getHoraSaida() {
         return horaSaida;
     }
 
-    public void setHoraSaida(BigDecimal horaSaida) {
+    public void setHoraSaida(Long horaSaida) {
         this.horaSaida = horaSaida;
     }
 
